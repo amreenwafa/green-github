@@ -1,9 +1,9 @@
 c c
 o o
-d
+d d
 e
 w
-i
+i			
 t
 h
 m

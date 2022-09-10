@@ -2,7 +2,7 @@ c c
 o o
 d d
 e e
-w
+w w
 i			
 t
 h

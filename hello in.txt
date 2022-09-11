@@ -2,7 +2,7 @@ c c c
 o o o
 d d d
 e e e
-w w
+w w w
 i i			
 t t
 h h

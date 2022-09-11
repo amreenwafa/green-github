@@ -5,6 +5,6 @@ e e e
 w w w
 i i i			
 t t t
-h h
+h h h
 m m
 e e

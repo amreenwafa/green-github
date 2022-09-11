@@ -4,7 +4,7 @@ d d d
 e e e
 w w w
 i i i			
-t t
+t t t
 h h
 m m
 e e

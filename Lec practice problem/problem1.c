@@ -6,7 +6,7 @@ int main()
     int i=1;
     while(i<=5) //while loop
     {
-        printf("My sirG \n");
+        printf("My sirG \t");
         i++;
     }
 

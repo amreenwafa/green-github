@@ -7,7 +7,7 @@ int main()
     while(i<=5) //while loop
     {
         printf("My sirG \t");
-        i++;
+        i++; //i increase
     }
 
 return 0;

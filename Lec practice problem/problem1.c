@@ -3,11 +3,11 @@
 #include<stdio.h>
 int main()
 {
-    int a=1;
-    while(a<=5)
+    int i=1;
+    while(i<=5)
     {
         printf("My sirG \n");
-        a++;
+        i++;
     }
 
 return 0;

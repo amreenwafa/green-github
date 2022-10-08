@@ -1,4 +1,4 @@
-//WAP to enter 3times a even no
+//WAP to enter 3times in a loop if  the user enter even no  
 #include<stdio.h>
 int main()
 {

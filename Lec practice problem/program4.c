@@ -1,4 +1,4 @@
-//WAP to enter 3times in a loop if  the user enter even no  
+//WAP to enter 3times in a loop if  the user enter even no atleast one time then it should print you won 
 #include<stdio.h>
 int main()
 {

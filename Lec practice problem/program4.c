@@ -1,4 +1,4 @@
-//Wap 
+//WAP to enter 3times a even no
 #include<stdio.h>
 int main()
 {

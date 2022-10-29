@@ -1,7 +1,5 @@
-#inclde<conio.h>
-#include<iostream>
-using namespace std;
-
+//stack
+#include<stdio.h>
 struct Node
 {
     int data;

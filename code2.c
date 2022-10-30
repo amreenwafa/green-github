@@ -1,5 +1,7 @@
 //stack
+
 #include<stdio.h>
+
 struct Node
 {
     int data;
@@ -75,7 +77,7 @@ int main()
         if(start==NULL)
          printf("NO list present");
 
-        elseif(start->link==NULL)
+        else if(start->link==NULL)
         {
             free(start);
             printf("\nNode is deleted\n");

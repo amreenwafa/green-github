@@ -1,4 +1,4 @@
-//stack
+//stack 
 
 #include<stdio.h>
 

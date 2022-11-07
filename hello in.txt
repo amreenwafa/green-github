@@ -1,10 +1,34 @@
-c c c c c c c c c c c c c c c c c c c c c c c c c c
-o o o o o o o o o o o o o o o o o o o o o o o o o o
-d d d d d d d d d d d d d d d d d d d d d d d d d d
-e e e e e e e e e e e e e e e e e e e e e e e e e e
-w w w w w w w w w w w w w w w w w w w w w w w w w w
-i i i i	i i i i	i i i i	i i i i i i i i i i i i i
-t t t t t t t t t t t t t t t t t t t t t t t t t
-h h h h h h h h h h h h h h h h h h h h h h h h h
-m m m m m m m m m m m m m m m m m m m m m m m m m
-e e e e e e e e e e e e e e e e e e e e e e e e e
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i,j,n,temp;
+
+    cin>>n;
+    int arr[n];
+
+    //Taking input
+    for(i=0;i<n;i++)
+      cin>>arr[i];
+    
+    //Sorting in ascending order
+    for(i=0;i<n;i++)
+    {
+        for(j=i+1;j<n;j++)
+        {
+            if(arr[i]>arr[j])
+            {
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp; 
+            }
+        }
+    }
+
+    for(i=0;i<n;i++)
+       cout<<" "<<arr[i];
+    
+    return 0;
+}

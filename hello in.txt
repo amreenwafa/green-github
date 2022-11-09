@@ -11,7 +11,7 @@ int main()
 
     //Loop Taking input
     for(i=0;i<n;i++)
-      cin>>arr[i];
+      cin>>arr[i];   //
     
     //Sorting in ascending order
     for(i=0;i<n;i++)

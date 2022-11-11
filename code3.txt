@@ -72,7 +72,7 @@ int main()
             temp->link = NULL;
         }
     }
-
+//delete operation
     void pop()
     {
         if(start==NULL)

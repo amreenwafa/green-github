@@ -1,0 +1,27 @@
+
+int main()
+{
+ int A[10],i,j,temp;                                
+
+ //Taking elements from user in array A           
+ cout<<"\n Enter 10 elements in array A \n";
+ for(i=0;i<10;i++)
+  cin>>A[i];
+
+ for(i=0;i<9;i++)
+  {
+   for(j=0;j<9-i;j++)     //Loop for bubble sorting the element of array A
+    {
+     if(A[j]>A[j+1])
+      {
+       temp=A[j];
+       A[j]=A[j+1];
+       A[j+1]=temp;
+      }
+    }
+  }
+
+ cout<<"\n Elements of array A after sorting are \n";
+ for(i=0;i<10;i++)
+  cout<<"  "<<A[i];
+}

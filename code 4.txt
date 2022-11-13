@@ -12,7 +12,7 @@ int main()
 
  for(i=0;i<9;i++)
   {
-   for(j=0;j<9-i;j++)      the element of array A
+   for(j=0;j<9-i;j++)      //loop to enter the element of array A
     {
      if(A[j]>A[j+1])
       {

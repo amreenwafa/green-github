@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int i,l,n,temp;
+
+    cin>>n;
+    int arr[n];
+
+    for(i=0;i<n;i++)
+      cin>>arr[i];
+
+    l=-1;
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]==0)
+        {
+            l++;
+            temp=arr[l];
+            arr[l]=arr[i];
+            arr[i]=temp;
+        }
+    }
+
+    l=n;
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]==2)
+        {
+            l--;
+            temp=arr[l];
+            arr[l]=arr[i];
+            arr[i]=temp;
+        }
+        if(arr[i]==0)
+           break;
+    }
+    for(i=0;i<n;i++)
+       cout<<arr[i]<<" ";
+}

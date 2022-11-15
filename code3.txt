@@ -53,7 +53,7 @@ int main()
    //insert operation 
     void insert(int x)
     {
-        if(start==NULL)
+        if(start==NULL) // when no node present
         {
             start = (struct node*)malloc(sizeof(struct node));
             start->data = x;                              //no node presennt

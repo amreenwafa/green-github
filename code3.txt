@@ -56,7 +56,7 @@ int main()
         if(start==NULL) // when no node present
         {
             start = (struct node*)malloc(sizeof(struct node));
-            start->data = x;                              //no node presennt
+            start->data = x;  //                            //no node presennt
 
             start->link = NULL;
         }

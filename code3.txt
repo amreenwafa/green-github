@@ -9,7 +9,7 @@ struct Node
     struct Node* link;
 }*temp,*start,*p;
 
-void insert(int x);
+void insert(int x); //insert
 void pop();
 void count();
 void display();

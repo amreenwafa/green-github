@@ -19,7 +19,7 @@ int main()
             l++;
             temp=arr[l];
             arr[l]=arr[i];
-            arr[i]=temp;
+            arr[i]=temp;//
         }
     }
 

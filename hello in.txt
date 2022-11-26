@@ -20,7 +20,7 @@ void search(int x);
 void count();
 void display();
 
-void main()
+void main() //
 {
   int ch,n;
   start = NULL;

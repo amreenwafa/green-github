@@ -29,9 +29,9 @@ void main() //
   //Menu driven
   do
   {
-   clrscr();
+   clrscr(); //
    printf("\n\n\t\tEnter your choice :");
-   printf("\n\n\t\tPress 1 to insert ");
+   printf("\n\n\t\tPress 1 to insert ");  //
    printf("\n\n\t\tPress 2 to delete");
    printf("\n\n\t\tPress 3 to search");   //choice
    printf("\n\n\t\tPress 4 to count");

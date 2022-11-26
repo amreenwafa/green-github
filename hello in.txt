@@ -8,7 +8,7 @@
 //Node contating data part and link part
 struct Node
 {
-  int data;
+  int data;//
   struct Node *link;
 
 } *start,*p,*temp;

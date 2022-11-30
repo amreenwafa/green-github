@@ -62,7 +62,7 @@ void main() //
      default: printf("\nInvalid choice");
 
    }
-   printf("\nPress 0 to continue...");
+   printf("\nPress 0 to continue..."); //
    scanf("%d",&ch);
 
   }while(ch==0);

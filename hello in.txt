@@ -45,7 +45,7 @@ void main() //
 	           insert(n);
 	           break;
 
-     case 2: pop();
+     case 2: pop();  //
 	     break;
 
      case 3: printf("Enter value to be search ");

@@ -70,7 +70,7 @@ int main()
             temp = (struct node*)malloc(sizeof(struct node));
             p->link = temp;
             temp->data = x;
-            temp->link = NULL;
+            temp->link = NULL;//
         }
     }
 //delete operation

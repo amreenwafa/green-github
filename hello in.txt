@@ -11,7 +11,7 @@ struct Node
   int data;//
   struct Node *link;
 
-} *start,*p,*temp;
+} *start,*p,*temp;//
 
 //Declaring function
 void insert(int x);

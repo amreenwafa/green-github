@@ -79,7 +79,7 @@ int main()
         if(start==NULL)
          printf("NO list present");
 
-        elseif(start->link==NULL)
+        elseif(start->link==NULL) //
         {
             free(start);
             printf("\nNode is deleted\n");

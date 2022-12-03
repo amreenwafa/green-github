@@ -13,7 +13,7 @@ void insert(int x); //insert function call
 void pop();
 void count();
 void display();
-void search(int x);
+void search(int x);  //
 
 int main()
 {

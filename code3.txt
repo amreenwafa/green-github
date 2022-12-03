@@ -88,7 +88,7 @@ int main()
 
         else
         {
-            p=start;
+            p=start;//
             while(p->link->link!=NULL)
             {
                 p=p->link;

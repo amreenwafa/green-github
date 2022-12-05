@@ -24,7 +24,7 @@ int main()
     {
       
       printf("Enter your choice : \n");
-      printf("Press 1 to insert : \n");
+      printf("Press 1 to insert : \n");//
       printf("Press 2 to Pop : \n");
       printf("Press 3 to display : \n");
       scanf("%d",&ch);

@@ -6,7 +6,7 @@ using namespace std;
 struct Node
 {
     int data;
-    struct Node* link;
+    struct Node* link;//
 }*temp,*start,*p;
 
 void insert(int x); //insert function call

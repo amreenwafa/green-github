@@ -17,7 +17,7 @@ void search(int x);
 int main()
 {
     int ch,n;
-    start = NULL;
+    start = NULL;//
     
     do
     {

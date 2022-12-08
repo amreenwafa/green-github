@@ -10,7 +10,7 @@ struct Node
 
 void insert(int x);
 void pop();
-void count();
+void count();//
 void display();
 void search(int x);
 

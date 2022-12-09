@@ -23,7 +23,7 @@ void display();//
 void main() //
 {
   int ch,n;
-  start = NULL;
+  start = NULL;//
   clrscr();
 
   //Menu driven

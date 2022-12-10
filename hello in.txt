@@ -14,7 +14,7 @@ struct Node//
 } *start,*p,*temp;//
 
 //Declaring function
-void insert(int x);
+void insert(int x);//
 void pop();
 void search(int x);///
 void count();

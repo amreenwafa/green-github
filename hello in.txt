@@ -13,7 +13,7 @@ struct Node//
 
 } *start,*p,*temp;//
 
-//Declaring function
+//Declaring function//
 void insert(int x);//
 void pop();
 void search(int x);///

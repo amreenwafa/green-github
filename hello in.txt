@@ -5,7 +5,7 @@
 #include<conio.h>   //hedaer file
 #include<alloc.h>
 
-//Node contating data part and link part
+//Node contating data part and link part//
 struct Node//
 {
   int data;//

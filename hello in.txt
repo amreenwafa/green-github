@@ -63,7 +63,7 @@ void main() //
 
    }
    printf("\nPress 0 to continue..."); //
-   scanf("%d",&ch);
+   scanf("%d",&ch);//
 
   }while(ch==0);
 }

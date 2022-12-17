@@ -50,7 +50,7 @@ void main() //
 
      case 3: printf("Enter value to be search ");
 	     scanf("%d",&n);
-	     search(n);
+	     search(n);//
 	     break;
 
      case 4: count();

@@ -35,7 +35,7 @@ void main()
    printf("\n\n\t\tPress 2 to delete");
    printf("\n\n\t\tPress 3 to search");   //choice
    printf("\n\n\t\tPress 4 to count");
-   printf("\n\n\t\tPress 5 to display");//
+   printf("\n\n\t\tPress 5 to display");
    scanf("%d",&ch);
 
    switch(ch)
@@ -43,7 +43,7 @@ void main()
      case 1: printf("\n Enter the value to insert");
 	           scanf("%d",&n);
 	           insert(n);
-	           break;//
+	           break;
 
      case 2: pop(); 
 	     break;
@@ -54,7 +54,7 @@ void main()
 	     break;
 
      case 4: count();
-	     break;  //
+	     break;  
 
      case 5: display();
 	     break;
@@ -62,12 +62,12 @@ void main()
      default: printf("\nInvalid choice");
 
    }
-   printf("\nPress 0 to continue..."); //
-   scanf("%d",&ch);//
+   printf("\nPress 0 to continue...");
+   scanf("%d",&ch);
 
   }while(ch==0);
 }
- //Insert operation //
+ //Insert operation 
  void insert(int x)
  {
    if(start==NULL)

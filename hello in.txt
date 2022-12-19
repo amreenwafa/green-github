@@ -9,14 +9,14 @@
 struct Node//
 {
   int data;//
-  struct Node *link;// //
+  struct Node *link;
 
-} *start,*p,*temp;//
+} *start,*p,*temp;
 
-//Declaring function//
-void insert(int x);//
+//Declaring function
+void insert(int x);
 void pop();//
-void search(int x);///
+void search(int x);
 void count();
 void display();//
 

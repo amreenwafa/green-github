@@ -5,7 +5,7 @@
 #include<conio.h>   //hedaer file
 #include<alloc.h>
 
-//Node contating data part and link part// //
+//Node contating data part and link part
 struct Node//
 {
   int data;//
@@ -18,21 +18,21 @@ void insert(int x);
 void pop();//
 void search(int x);
 void count();
-void display();//
+void display();
 
-void main() //
+void main() 
 {
   int ch,n;
-  start = NULL;//
+  start = NULL;
   clrscr();
 
-  //Menu driven
+ //Menu driven
   do
   {
-   clrscr(); //
-   printf("\n\n\t\tEnter your choice :");//
-   printf("\n\n\t\tPress 1 to insert ");  //
-   printf("\n\n\t\tPress 2 to delete");//
+   clrscr(); 
+   printf("\n\n\t\tEnter your choice :");
+   printf("\n\n\t\tPress 1 to insert ");  
+   printf("\n\n\t\tPress 2 to delete");
    printf("\n\n\t\tPress 3 to search");   //choice
    printf("\n\n\t\tPress 4 to count");
    printf("\n\n\t\tPress 5 to display");//
@@ -45,12 +45,12 @@ void main() //
 	           insert(n);
 	           break;//
 
-     case 2: pop();  //
-	     break;//
+     case 2: pop(); 
+	     break;
 
      case 3: printf("Enter value to be search ");
 	     scanf("%d",&n);
-	     search(n);//
+	     search(n);
 	     break;
 
      case 4: count();

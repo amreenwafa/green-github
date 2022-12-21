@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-struct Node
+struct Node   //Structure
 {
     int data;
     struct Node* link;

@@ -75,7 +75,7 @@ int main()
     void pop()
     {
         if(start==NULL)
-         printf("NO list present");
+         printf("NO list present"); //when no node present
 
         else if(start->link==NULL)
         {

@@ -11,7 +11,7 @@ struct Node//
   int data;
   struct Node *link;
 
-} *start,*p,*temp;
+} *start,*p,*temp;//
 
 //Declaring function
 void insert(int x);
@@ -167,7 +167,7 @@ void main()
  //Function for displaying element
  void display()
  {
-   if(start==NULL)
+   if(start==NULL)//
     {
       printf("No list present!!!");
     }
@@ -176,7 +176,7 @@ void main()
       p = start;
       while(p!=NULL)
        {
-	       printf("%d\n",p->data);
+	       printf("%d\n",p->data);//
 	       p = p->link;
        }
     }

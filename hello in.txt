@@ -147,7 +147,7 @@ void main()
 
    if(start==NULL)
     {
-       count<<"No list present!";
+       count<<"No list present!";//
     }
     else
     {

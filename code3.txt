@@ -91,7 +91,7 @@ int main()
             p=start;//
             while(p->link->link!=NULL)
             {
-                p=p->link;
+                p=p->link;//
             }
 
             temp = p->link;

@@ -48,7 +48,7 @@ void main()
 	     break;
 
      case 3: printf("Enter value to be search ");
-	     scanf("%d",&n);//
+	     scanf("%d",&n);
 	     search(n);
 	     break;
 

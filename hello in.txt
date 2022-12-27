@@ -9,7 +9,7 @@
 struct Node
 {
   int data;
-  struct Node *link;/
+  struct Node *link;
 
 } *start,*p,*temp;
 //Declaring function

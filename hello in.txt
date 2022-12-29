@@ -175,7 +175,7 @@ void main()
       p = start;
       while(p!=NULL)
        {
-	       printf("%d\n",p->data);//
+	       printf("%d\n",p->data);/
 	       p = p->link;
        }
     }

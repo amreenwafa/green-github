@@ -166,7 +166,7 @@ void main()
  //Function for displaying element
  void display()
  {
-   if(start==NULL)//
+   if(start==NULL)/
     {
       printf("No list present!!!");
     }

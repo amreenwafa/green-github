@@ -118,7 +118,7 @@ void main()
  {
    int flag = 0;
 
-   if(start==NULL)/
+   if(start==NULL)
     {
       printf("No list present...");
     }

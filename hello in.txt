@@ -64,7 +64,7 @@ void main()
    printf("\nPress 0 to continue...");
    scanf("%d",&ch);
 
-  }while(ch==0);
+  }while(ch==0);/
 }
  //Insert operation 
  void insert(int x)

@@ -41,7 +41,7 @@ void main()
    {
      case 1: printf("\n Enter the value to insert");
 	           scanf("%d",&n);
-	           insert(n);/
+	           insert(n);
 	           break;
 
      case 2: pop(); 
